@@ -69,12 +69,12 @@ DATABASES = {
         'HOST': '127.0.0.1',
         'PORT': '5432',
     },
-    'remote-postgres': {
+    'remote-postgres-internal': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'logdb',
         'USER': 'logdbuser',
         'PASSWORD': 'logdbpass',
-        'HOST': 'west2-logdb.crsma7uhn8wg.us-west-2.rds.amazonaws.com',
+        'HOST': 'us-west-2a-logdb.crsma7uhn8wg.us-west-2.rds.amazonaws.com',
         'PORT': '5432',
     }
 }
